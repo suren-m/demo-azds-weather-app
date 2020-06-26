@@ -1,39 +1,36 @@
-# demo-azds-weather-app
+# demo-azds-weather-app (own devspace)
 
-1. Create or Select `develop` devspace (no parent devspace needed)
+For setting up develop devspace - see `develop` branch
+
+1. Create a `ui-feature` devspace and use `develop` as parent (or create a devspace under your own name)
 ```bash
 azds space select
-```
 
-2. Prep and Deploy `Weather.Internal.Api` (keep this private)
-```bash
-cd ./Weather.Internal.Api/
-azds prep
-azds up
-```
+# provide a name for new devspace - something like `ui-feature`
 
-2. On a new tab, prep and deploy weather web to be public (just for demo) 
+# choose the number of `develop` devspace when prompted to select a parent
+
+```
+3. On a new terminal, prep and deploy weather web (`--enable-ingress` if required for demo or just use port-forwarding)
 ```bash
 cd ./Weather.Web/
 azds prep --enable-ingress  
 azds up
 ```
 
-3. On a separate tab, check status of services currently running in `develop` devspace
+3. On a separate terminal, check status of services currently running in current devspace 
 ```bash
 azds list-up
 ```
 
-3. List available uris in `develop` devspace
+3. List available uris in current devspace (note the link to `develop` devspace for api
 
 ```bash
 azds list-uris
 ```
 
-4. Choose `develop.weatherweb.######.uks.azds.io` to access the weather-app. (may take a few seconds to load upon first time)
+4. Choose `ui-feature.s.weatherweb.######.uks.azds.io` to access the weather-app. (may take a few seconds to load upon first time)
 
-5. For internal api, use the localhost `port-forwarded` endpoint 
+5. Notice the changes. The ui in `develop.weatherweb.#####.uks.azds.io` should still remain intact
 
-
-
-
+5. To display, all available uris use `azds list-uris --all`
