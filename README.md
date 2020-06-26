@@ -1,4 +1,4 @@
 # demo-azds-weather-app
 
 
-** For azds setup, see `develop` branch **
+> **For azds setup, see `develop` branch**
