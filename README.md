@@ -32,6 +32,7 @@ azds list-uris
 
 4. Choose `develop.weatherweb.######.uks.azds.io` to access the weather-app. (may take a few seconds to load upon first time)
 
+5. For internal api, use the localhost `port-forwarded` endpoint 
 
 
 
