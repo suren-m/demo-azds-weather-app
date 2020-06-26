@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weather.Web", "Weather.Web\Weather.Web.csproj", "{B6600E37-562A-4963-BBE6-BB65DA57B367}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weather.Internal.Api", "Weather.Internal.Api\Weather.Internal.Api.csproj", "{6A3B5FC4-5AEF-450B-9555-E1B6D5450B32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6600E37-562A-4963-BBE6-BB65DA57B367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6600E37-562A-4963-BBE6-BB65DA57B367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6600E37-562A-4963-BBE6-BB65DA57B367}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B6600E37-562A-4963-BBE6-BB65DA57B367}.Debug|x64.Build.0 = Debug|Any CPU
+		{B6600E37-562A-4963-BBE6-BB65DA57B367}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B6600E37-562A-4963-BBE6-BB65DA57B367}.Debug|x86.Build.0 = Debug|Any CPU
+		{B6600E37-562A-4963-BBE6-BB65DA57B367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6600E37-562A-4963-BBE6-BB65DA57B367}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6600E37-562A-4963-BBE6-BB65DA57B367}.Release|x64.ActiveCfg = Release|Any CPU
+		{B6600E37-562A-4963-BBE6-BB65DA57B367}.Release|x64.Build.0 = Release|Any CPU
+		{B6600E37-562A-4963-BBE6-BB65DA57B367}.Release|x86.ActiveCfg = Release|Any CPU
+		{B6600E37-562A-4963-BBE6-BB65DA57B367}.Release|x86.Build.0 = Release|Any CPU
+		{6A3B5FC4-5AEF-450B-9555-E1B6D5450B32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A3B5FC4-5AEF-450B-9555-E1B6D5450B32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A3B5FC4-5AEF-450B-9555-E1B6D5450B32}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6A3B5FC4-5AEF-450B-9555-E1B6D5450B32}.Debug|x64.Build.0 = Debug|Any CPU
+		{6A3B5FC4-5AEF-450B-9555-E1B6D5450B32}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6A3B5FC4-5AEF-450B-9555-E1B6D5450B32}.Debug|x86.Build.0 = Debug|Any CPU
+		{6A3B5FC4-5AEF-450B-9555-E1B6D5450B32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A3B5FC4-5AEF-450B-9555-E1B6D5450B32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A3B5FC4-5AEF-450B-9555-E1B6D5450B32}.Release|x64.ActiveCfg = Release|Any CPU
+		{6A3B5FC4-5AEF-450B-9555-E1B6D5450B32}.Release|x64.Build.0 = Release|Any CPU
+		{6A3B5FC4-5AEF-450B-9555-E1B6D5450B32}.Release|x86.ActiveCfg = Release|Any CPU
+		{6A3B5FC4-5AEF-450B-9555-E1B6D5450B32}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F650330-E499-411B-9683-492F1A307814}
+	EndGlobalSection
+EndGlobal
